@@ -9,7 +9,7 @@ public interface DepartmentDao {
 
         //create
         void add(Department department);
-        void addFoodtypeToRestaurant(Department department, User user);
+        void addDepartmenttoUser(Department department, User user);
 
         //read
         List<Department> getAll();

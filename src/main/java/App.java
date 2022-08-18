@@ -4,12 +4,14 @@ import dao.Sql2oDepartmentDao;
 import dao.Sql2oNewsDao;
 import dao.Sql2oUserDao;
 import dao.UserDao;
+import exceptions.ApiException;
 import models.Department;
 import models.News;
 import models.User;
 import org.sql2o.Connection;
 import org.sql2o.Sql2o;
 import java.sql.Connection;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 

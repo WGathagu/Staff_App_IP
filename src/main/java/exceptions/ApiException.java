@@ -12,4 +12,3 @@ package exceptions;
             return statusCode;
         }
     }
-}
