@@ -20,5 +20,5 @@ CREATE TABLE IF NOT EXISTS news (
  id int PRIMARY KEY auto_increment,
  general_news VARCHAR,
  department_news VARCHAR,
- userid INTEGER
+ departmentid INTEGER
 );
