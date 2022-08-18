@@ -1,17 +1,19 @@
 package dao;
 
 import models.Department;
+import models.User;
+
 import java.util.List;
 
 public interface DepartmentDao {
 
         //create
         void add(Department department);
-        //void addFoodtypeToRestaurant(Foodtype foodtype, Restaurant restaurant);
+        void addFoodtypeToRestaurant(Department department, User user);
 
         //read
         List<Department> getAll();
-        // List<Restaurant> getAllRestaurantsForAFoodtype(int id);
+        static List<User> getAllUsersForADepartment(int id);
 
         //update
         //omit for now
@@ -19,4 +21,4 @@ public interface DepartmentDao {
         //delete
         void deleteById(int id);
         void clearAll();
-}
+

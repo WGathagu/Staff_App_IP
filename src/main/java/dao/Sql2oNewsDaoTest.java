@@ -1,7 +1,5 @@
 package dao;
 
-import models.User;
-import models.Department;
 import models.News;
 import org.junit.After;
 import org.junit.Before;
