@@ -10,7 +10,7 @@ public interface UserDao {
         void addUserToDepartment(User user, Department department);
 
         //read
-        List<User> getAll();
+        static List<User> getAll();
         User findById(int id);
         static List<Department> getAllDepartmentsForAUser(int userId);
 
